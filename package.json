@@ -1,0 +1,24 @@
+{
+  "name": "kmps",
+  "version": "0.1.0",
+  "description": "Knuth–Morris–Pratt algorithm that works with Array & TypedArray",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chocobo1/kmps.git"
+  },
+  "scripts": {
+    "test": "mocha --bail"
+  },
+  "author": "Mike Tzou (Chocobo1)",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "jsverify": "^0.8.4",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "Knuth–Morris–Pratt",
+    "KMP algorithm",
+    "String-searching algorithm"
+  ]
+}
