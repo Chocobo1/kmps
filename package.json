@@ -14,7 +14,7 @@
   "license": "BSD-3-Clause",
   "devDependencies": {
     "jsverify": "^0.8.4",
-    "mocha": "^7.1.1"
+    "mocha": "^8.0.1"
   },
   "keywords": [
     "Knuth–Morris–Pratt",
