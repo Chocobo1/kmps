@@ -60,6 +60,7 @@ npm test        # run tests
 ### References
 * http://www.inf.fh-flensburg.de/lang/algorithmen/pattern/kmpen.htm
 * https://people.ok.ubc.ca/ylucet/DS/KnuthMorrisPratt.html
+* https://www.scaler.com/topics/data-structures/
 
 ### See also
 You might be interested to [Boyer–Moore–Horspool algorithm][bmh_link]
