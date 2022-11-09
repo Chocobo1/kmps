@@ -58,7 +58,7 @@ npm test        # run tests
 ```
 
 ### References
-* http://www.inf.fh-flensburg.de/lang/algorithmen/pattern/kmpen.htm
+* https://www.inf.hs-flensburg.de/lang/algorithmen/pattern/kmpen.htm
 * https://people.ok.ubc.ca/ylucet/DS/KnuthMorrisPratt.html
 
 ### See also
