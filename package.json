@@ -13,8 +13,8 @@
   "author": "Mike Tzou (Chocobo1)",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "jsverify": "^0.8.4",
-    "mocha": "^8.3.0"
+    "jsverify": "*",
+    "mocha": "*"
   },
   "keywords": [
     "Knuth–Morris–Pratt",
