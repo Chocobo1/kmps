@@ -3,18 +3,22 @@
   "version": "0.1.0",
   "description": "Knuth–Morris–Pratt algorithm that works with Array & TypedArray",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Chocobo1/kmps.git"
   },
   "scripts": {
-    "test": "mocha --bail"
+    "test": "mocha --require ts-node/register --extension ts,tsx --bail"
   },
   "author": "Mike Tzou (Chocobo1)",
   "license": "BSD-3-Clause",
   "devDependencies": {
+    "@types/mocha": "*",
     "jsverify": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "ts-node": "*",
+    "typescript": "*"
   },
   "keywords": [
     "Knuth–Morris–Pratt",

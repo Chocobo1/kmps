@@ -1,13 +1,11 @@
-'use strict';
-
-const Assert = require('assert');
-const Jsc = require('jsverify');
-const Kmp = require('../src/index.js');
+import { strict as Assert } from 'node:assert';
+import * as Jsc from 'jsverify';
+import * as Kmp from '../src/index';
 
 describe("Unit tests", function() {
     describe("kmps.generateSkipTable", function() {
         it("Boundary tests", function() {
-            const checkPositive = (val) => {
+            const checkPositive = (val: any) => {
                 const kmp = Kmp.KnuthMorrisPratt(val);
 
                 const x = kmp.skipTable.every((val) => {
@@ -28,7 +26,7 @@ describe("Unit tests", function() {
     });
 
     describe("kmps.match", function() {
-        const dataSet = [
+        const dataSet: any[] = [
             // [pattern, corpus, expectedIdx]
 
             // boundary
@@ -94,7 +92,7 @@ describe("Unit tests", function() {
         });
 
         it("Offset tests", function() {
-            const offsetDataSet = [
+            const offsetDataSet: any[] = [
                 // [pattern, corpus, offset, expectedIdx]
 
                 // boundary

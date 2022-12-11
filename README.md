@@ -13,7 +13,8 @@ npm install git+https://github.com/Chocobo1/kmps.git
 
 ### Usage example
 ```javascript
-const Kmp = require('kmps');  // import this module
+const Kmp = require('kmps');  // import this module, CommonJS style
+//import * as Kmp from 'kmps';  // import this module, ES module style
 
 // working with TypedArray
 {
